@@ -9,7 +9,7 @@
   "Outputs" : {
     "BucketName" : {
       "Value" : {
-        "Ref" : "S3Bucket1"
+        "Ref" : "S3Bucket"
       },
       "Description" : "Description for the infrastructure v1"
     }
