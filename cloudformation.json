@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion" : "2010-09-09",
-  "Description" : "Cloudformation template",
+  "Description" : "Cloudformation template 1",
   "Resources" : {
     "S3Bucket" : {
       "Type" : "AWS::S3::Bucket"
@@ -9,9 +9,9 @@
   "Outputs" : {
     "BucketName" : {
       "Value" : {
-        "Ref" : "S3Bucket"
+        "Ref" : "S3Bucket1"
       },
-      "Description" : "Description for the infrastructure"
+      "Description" : "Description for the infrastructure v1"
     }
   }
 }
